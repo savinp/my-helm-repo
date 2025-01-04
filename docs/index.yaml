@@ -3,28 +3,28 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-01-04T18:45:35.014043207Z"
+    created: "2025-01-04T18:54:37.475088501Z"
     description: A Helm chart for Kubernetes
     digest: 9053008088d147705aa54d0ff78ebeecea1e9f5f13c68549f7c0eff0ff65d331
     name: nginx
     type: application
     urls:
-    - https://github.com/savinp/shared-helm-chart/raw/main/docs/charts/nginx-1.0.0.tgz
+    - https://savinp.github.io/my-helm-repo/charts/nginx-1.0.0.tgz
     version: 0.1.0
   wordpress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-01-04T18:45:35.02014664Z"
+    created: "2025-01-04T18:54:37.478315961Z"
     description: A Helm chart for Kubernetes
     digest: 308c5b8fd9bd4d21ec9e35f02449eac30b816420683f4daffd0b2336846841e8
     name: wordpress
     type: application
     urls:
-    - https://github.com/savinp/shared-helm-chart/raw/main/docs/charts/wordpress-0.2.0.tgz
+    - https://savinp.github.io/my-helm-repo/charts/wordpress-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-01-04T18:45:35.015345821Z"
+    created: "2025-01-04T18:54:37.475981931Z"
     dependencies:
     - name: nginx
       repository: https://github.com/savinp/my-helm-repo/raw/main
@@ -34,6 +34,6 @@ entries:
     name: wordpress
     type: application
     urls:
-    - https://github.com/savinp/shared-helm-chart/raw/main/docs/charts/wordpress-0.1.0.tgz
+    - https://savinp.github.io/my-helm-repo/charts/wordpress-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-04T18:45:35.013180453Z"
+generated: "2025-01-04T18:54:37.471711299Z"
